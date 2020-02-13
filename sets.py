@@ -21,4 +21,4 @@ print(s1 ^ s2)      #values which are not repeating in s1  and  s2
 
 print(s1[1])        # not fetchable
 
-s1[1]=12
+s1[1]=12            # not allowed
