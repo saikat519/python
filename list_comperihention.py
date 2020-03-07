@@ -29,3 +29,4 @@ ar=[12,13,14,16,21,31]
 print(ar)
 ad=[i for i in ar if i%2==0]
 print(ad)
+
