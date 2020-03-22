@@ -7,7 +7,7 @@ it is mainly used in dictionary
 a=[1,2,3]
 b=[22,66,99]
 d=[11,12,13]
-c=e=list(zip(a,b,d))
+c=list(zip(a,b,d))
 e=set(zip(a,b,d))
 print(e)
 print(c)
