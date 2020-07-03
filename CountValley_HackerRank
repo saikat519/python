@@ -1,0 +1,17 @@
+n=int(input())
+s=input()
+arr=list(s)
+flag=0
+sea_lvl=0
+
+for i in arr:
+    
+    if i=='U':
+        sea_lvl+=1
+        if sea_lvl==0:
+            flag+=1
+    if i=='D':
+        sea_lvl-=1
+    
+    
+print(flag)
